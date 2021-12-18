@@ -1,0 +1,133 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.date-picker {
+  border: solid 1px #003773;
+  border-radius: 20px;
+  min-height: 2rem;
+  font-size: 1rem;
+  margin-right: 20px;
+  padding: 0px 15px;
+}
+
+.date-picker:focus {
+  outline: none;
+}
+
+.filter-button {
+  width: 6rem;
+  border-radius: 20px;
+  height: 2.5rem;
+  background-color: #da0000;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.filters-container {
+  margin-bottom: 3rem;
+}
+
+.selector-class {
+  border-radius: 20px;
+  border: solid 1px #003773;
+  border-radius: 20px;
+  min-height: 2rem;
+  font-size: 1rem;
+}
+
+.link {
+  color: #003773;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+table#report_ordes_table input {
+  border: solid 1px #003773;
+  border-radius: 20px;
+  min-height: 2rem;
+  font-size: 1rem;
+  padding: 0px 15px;
+}
+
+table#report_ordes_table input:focus {
+  outline: none;
+}
+
+.dataTables_filter {
+  display: none;
+}
+
+select[name="report_ordes_table_length"] {
+  border: solid 1px #003773;
+  border-radius: 20px;
+  min-height: 2rem;
+  font-size: 1rem;
+  margin-right: 20px;
+  padding: 0px 15px;
+}
+
+select[name="report_ordes_table_length"]:focus {
+  outline: none;
+}
+
+a.paginate_button.current {
+  color: white !important;
+  border-radius: 20px !important;
+  border: solid 1px #da0000 !important;
+  background-color: #da0000 !important;
+  background-image: none !important;
+}
+
+a.paginate_button {
+  color: #da0000 !important;
+  border-radius: 20px !important;
+  border: solid 1px #da0000 !important;
+  background-color: white !important;
+  background-image: none !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  color: white !important;
+}
+
+a#report_ordes_table_previous.paginate_button.previous.disabled {
+  border-color: lightgrey !important;
+}
+
+a#report_ordes_table_next.paginate_button.next.disabled {
+  border-color: lightgrey !important;
+}
+
+/* Estilos para el modal de detalle del pedido*/
+.modal {
+  max-width: 90%;
+}
+
+select[name="detail_table_modal_length"] {
+  border: solid 1px #003773;
+  border-radius: 20px;
+  min-height: 2rem;
+  font-size: 1rem;
+  margin-right: 20px;
+  padding: 0px 15px;
+}
+
+select[name="detail_table_modal_length"]:focus {
+  outline: none;
+}
+
+a#detail_table_modal_previous.paginate_button.previous.disabled {
+  border-color: lightgrey !important;
+}
+
+a#detail_table_modal_next.paginate_button.next.disabled {
+  border-color: lightgrey !important;
+}
+
+a[href="#"] {
+  display: none;
+}
