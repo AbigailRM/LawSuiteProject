@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>Customer Registration</title>
+    <link rel="stylesheet" href="valid.css" type="text/css" />
+    <script src="valid.js"></script>
+</head>
+
+<body bgcolor="white">
+    <div id="header" align="center"> Registration Form</div>
+    <div class="form-style">
+        <h2>All Fields are Mandatory</h2>
+        <form name="form1" method="post" action="#" OnSubmit="return fncValidate();" autocomplete="off">
+            <table align="center" width="400" border="0">
+                <tr>
+                    <td width="125"> &nbsp;Name</td>
+                    <td width="180">
+                        <div class="input-group">
+                            <input type="text" name="fname" size="20"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="125"> &nbsp;Lastname</td>
+                    <td width="180">
+                        <div class="input-group">
+                            <input type="text" name="lname" size="20"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td width="180">
+                            <div class="input-group">
+                                <input type="date" name="dob" size="20"></div>
+                    </tr>
+                    <td>Sex:</td>
+                    <td><span id="gen"><input type="radio" name="gender" value="male" id="male"> Male
+	  <input type="radio" name="gender" value="female" id="female"> Female</span></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" class="textarea-field"></textarea></td>
+                </tr>
+
+                <td>City: </td>
+                <td>
+                    <div class="input-group">
+                        <select id="city">
+<option value="">Choose a city</option>
+<option value="aus">Australia</option>
+<option value="gb">Great Britain</option>
+<option value="col">Colombia</option>
+<option value="usa">United States</option>
+<option value="rd">Dominican Republic </option>
+<option value="pr">Puerto Rico</option>
+<option value="is">Islandia</option>
+</select>
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                    <td>Country: </td>
+                    <td>
+                        <div class="input-group">
+                            <select id="country">
+<option value="">Choose a country</option>
+<option value="aus">Australia</option>
+<option value="gb">Great Britain</option>
+<option value="col">Colombia</option>
+<option value="usa">United States</option>
+<option value="rd">Dominican Republic </option>
+<option value="pr">Puerto Rico</option>
+<option value="is">Islandia</option>
+</select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> &nbsp;Mobile No:</td>
+                    <td>
+                        <div class="input-group"><input type="text" name="phone"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> &nbsp;Email</td>
+                    <td>
+                        <div class="input-group"><input type="text" name="email"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> &nbsp;Password</td>
+                    <td>
+                        <div class="input-group"><input type="password" name="Password"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> &nbsp;Confirm Password</td>
+                    <td>
+                        <div class="input-group"><input type="password" name="ConPassword"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="Submit" value="Submit" class="btn">&nbsp&nbsp
+                        <input type="reset" name="reset" value="Reset" class="btn"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
