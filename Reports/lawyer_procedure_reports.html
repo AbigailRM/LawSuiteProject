@@ -1,0 +1,65 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lawyers Report</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <link rel="stylesheet" href="/Reports/cases_css.css">
+    <script src="/Reports/lawyer_js.js"></script>
+</head>
+
+<body>
+    <div style="display:flex; flex-direction:column; background: #1c1b23; padding: 10px; margin-bottom: 5px; ">
+        <h1 style="margin-bottom:50px; color: white;">Lawyers Report</h1>
+
+        <div class="filters-container">
+            <input id="begin_date" type="date" text="Rango de inicio" class="date-picker" />
+            <input id="end_date" type="date" text="Rango de fin" class="date-picker" />
+            <button id="filter_button" class="filter-button">Filter</button>
+        </div>
+    </div>
+
+    <table id="report_ordes_table" class="display" style="width:90%">
+        <thead>
+            <tr>
+                <th>Lawyer Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Employment</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+    </table>
+
+    <!-- Modal HTML embedded directly into document -->
+    <div id="detail_modal" class="modal">
+        <table id="detail_table_modal" class="display" style="width:100%;">
+            <thead>
+                <tr>
+                    <th>Procedure Id</th>
+                    <th>Procedure Type</th>
+                    <th>Descripción</th>
+                    <th>Begin Date</th>
+                    <th>End Date</th>
+                    <th>Client</th>
+                    <th>Received Files</th>
+                    <th>State</th>
+                </tr>
+            </thead>
+        </table>
+        <a href="#" rel="modal:close">Close</a>
+    </div>
+
+
+</body>
+
+</html>

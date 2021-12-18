@@ -1,22 +1,10 @@
 var data = [
-  ["1", "02/04/2018", "Created", "345263774", "3500.00"],
-  [
-    "2",
-    "06/05/2018",
-    "Rejeted (Some files was not suplied)",
-    "7364536363",
-    "700.00",
-  ],
-  ["3", "12/07/2018", "Created", "09364526378", "9500.00"],
-  ["4", "24/08/2018", "Finalized", "4536473652", "2600.00"],
-  [
-    "5",
-    "06/03/2018",
-    "Rejeted (Some files was not suplied",
-    "77463564537u",
-    "8600.00",
-  ],
-  ["6", "16/04/2018", "Finalized", "345263774", "2799.00"],
+  ["1", "Jhon Smith", "345263774", "External Consultant"],
+  ["2", "Emma Bunton", "7364536363", "Tax Auditor"],
+  ["3", "Bunton Jonathon", "09364526378", "External Consultant"],
+  ["4", "Peter Hoa", "4536473652", "Tax Auditor"],
+  ["5", "Jensen Wildrem", "77463564537", "Principal Lawyer"],
+  ["6", "Amalia Jimenez", "345263774", "Legal Advisor"],
 ];
 var modalData = [
   [
@@ -25,9 +13,9 @@ var modalData = [
     "Here goes procedure description",
     "04/20/2018",
     "05/05/2018",
-    "220",
-    "200",
-    "1000",
+    "Cloe Motana",
+    "copy of marriage certificate, ID Card",
+    "Create",
   ],
 ];
 
